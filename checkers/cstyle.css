@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+#game_menu {
+    width: 250px;
+    margin: auto;
+    text-align: left;
+}
+
+#gameArea {
+    display: table;
+    margin: 0 auto;
+}
+
+table {
+    border: 10px solid black;
+}
+
+.board_cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.white {
+    background-color: #eee;
+}
+
+.gray {
+    background-color: #666;
+}
+
+.green{
+    background-color: #5f5;
+}
+
+.board_cell button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 0px;
+}
+
+.red-piece {
+    width: 30px;
+    height: 30px;
+}
+
+.black-piece {
+    width: 30px;
+    height: 30px;
+}
